@@ -4,7 +4,7 @@
 
 .blurred-background {
     background-image: url('/bitcoinadultanime.png');
-    background-size: 50%;
+    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
