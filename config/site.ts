@@ -1,8 +1,8 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-	name: "Next.js + NextUI",
-	description: "Make beautiful websites regardless of your design experience.",
+	name: "Bitcoin Adult",
+	description: "Bitcoin Adult is a cryptocurrency that aims to provide privacy and security to its users.",
 	navItems: [
 		{
 			label: "Home",
@@ -27,40 +27,24 @@ export const siteConfig = {
 	],
 	navMenuItems: [
 		{
-			label: "Profile",
-			href: "/profile",
-		},
-		{
-			label: "Dashboard",
-			href: "/dashboard",
-		},
-		{
-			label: "Projects",
-			href: "/projects",
-		},
-		{
+			label: "Wallet",
+			href: "/wallet",
+		  },
+		  {
+			label: "Roadmap",
+			href: "/roadmap",
+		  },
+		  {
 			label: "Team",
 			href: "/team",
-		},
-		{
-			label: "Calendar",
-			href: "/calendar",
-		},
-		{
-			label: "Settings",
-			href: "/settings",
-		},
-		{
-			label: "Help & Feedback",
-			href: "/help-feedback",
-		},
-		{
-			label: "Logout",
-			href: "/logout",
-		},
+		  },
+		  {
+			label: "Whitepaper",
+			href: "/whitepaper",
+		  },
 	],
 	links: {
-		github: "https://github.com/nextui-org/nextui",
+		github: "https://github.com/BitcoinAdultV2/BitcoinAdultV2",
 		twitter: "https://twitter.com/getnextui",
 		docs: "https://nextui.org",
 		discord: "https://discord.gg/9b6yyZKmH4",
