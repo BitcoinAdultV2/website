@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 .blurred-background {
-    background-image: url('/bitcoinadultanime.jpg');
-    background-size: cover;
+    background-image: url('/bitcoinadultanime.png');
+    background-size: 50%;
     background-position: center center;
+    background-repeat: no-repeat;
 }
