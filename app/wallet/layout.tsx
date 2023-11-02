@@ -35,6 +35,7 @@ export default function DocsLayout({
           isExternal
           showAnchorIcon
           href="https://github.com/BitcoinAdultV2/BitcoinAdultV2/releases/download/v2.0.0/bitcoinadult2.0.0-x86_64-linux-gnu.tar.gz"
+          className="font-bold"
         >
           Download from GitHub.
         </Link>
@@ -59,6 +60,7 @@ export default function DocsLayout({
           isExternal
           showAnchorIcon
           href="https://github.com/BitcoinAdultV2/BitcoinAdultV2/releases/download/v2.0.0/bitcoinadult2.0.0-win64.zip"
+          className="font-bold"
         >
           Download from GitHub.
         </Link>
@@ -83,6 +85,7 @@ export default function DocsLayout({
           isExternal
           showAnchorIcon
           href="https://github.com/BitcoinAdultV2/BitcoinAdultV2/releases/download/v2.0.0/bitcoinadult2.0.0-x86_64-apple-darwin.tar.gz"
+          className="font-bold"
         >
           Download from GitHub.
         </Link>
