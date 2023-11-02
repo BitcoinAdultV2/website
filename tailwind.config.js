@@ -9,7 +9,10 @@ module.exports = {
     './node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}'
   ],
   theme: {
-    extend: {},
+    extend: {      fontFamily:{
+      'primary': ['Grandiflora One']
+    },
+  },
   },
   darkMode: "class",
   plugins: [nextui()],
