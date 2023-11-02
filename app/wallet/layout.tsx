@@ -26,7 +26,7 @@ export default function DocsLayout({
           width={40}
         />
         <div className="flex flex-col">
-          <p className="text-md">Linux</p>
+          <p className="text-md font-bold">Linux</p>
         </div>
       </CardHeader>
       <Divider/>
@@ -51,7 +51,7 @@ export default function DocsLayout({
           width={40}
         />
         <div className="flex flex-col">
-          <p className="text-md">Windows</p>
+          <p className="text-md font-bold">Windows</p>
         </div>
       </CardHeader>
       <Divider/>
@@ -76,7 +76,7 @@ export default function DocsLayout({
           width={40}
         />
         <div className="flex flex-col">
-          <p className="text-md">Mac</p>
+          <p className="text-md font-bold">Mac</p>
         </div>
       </CardHeader>
       <Divider/>
