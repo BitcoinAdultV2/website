@@ -45,9 +45,9 @@ export const siteConfig = {
 	],
 	links: {
 		github: "https://github.com/BitcoinAdultV2/BitcoinAdultV2",
-		twitter: "https://twitter.com/getnextui",
-		docs: "https://nextui.org",
-		discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev"
+		twitter: "https://twitter.com/bitcoin_adult",
+		docs: "https://github.com/BitcoinAdultV2/BitcoinAdultV2",
+		discord: "https://discord.gg/nyAhUFXVzF",
+    sponsor: "https://github.com/BitcoinAdultV2"
 	},
 };
