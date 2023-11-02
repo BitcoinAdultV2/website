@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { title, subtitle } from "@/components/primitives";
 
 export default function Home() {
