@@ -13,17 +13,9 @@ export const siteConfig = {
       href: "/wallet",
     },
     {
-      label: "Roadmap",
-      href: "/roadmap",
+      label: "Exchanges",
+      href: "/exchanges",
     },
-    {
-      label: "Team",
-      href: "/team",
-    },
-    {
-      label: "Whitepaper",
-      href: "/whitepaper",
-    }
 	],
 	navMenuItems: [
 		{
@@ -31,16 +23,8 @@ export const siteConfig = {
 			href: "/wallet",
 		  },
 		  {
-			label: "Roadmap",
-			href: "/roadmap",
-		  },
-		  {
-			label: "Team",
-			href: "/team",
-		  },
-		  {
-			label: "Whitepaper",
-			href: "/whitepaper",
+			label: "Exchanges",
+			href: "/exchanges",
 		  },
 	],
 	links: {
