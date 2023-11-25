@@ -32,6 +32,15 @@ export default function AboutPage() {
                         <p><Link isExternal href="https://coincodex.com/crypto/bitcoin-adult/" aria-label="coincodex">CoinCodex - Info, charts, and statistics</Link></p>
                     </CardBody>
                 </Card>
+				
+				{/* CoinPaprika Link */}
+				<Card className="max-w-[400px] mb-4 font-bold">
+					<CardBody>
+						<p><Link isExternal href="https://coinpaprika.com/coin/btad-bitcoin-adult/" aria-label="coingecko">CoinPaprika - Info, charts, and statistics</Link></p>
+					</CardBody>
+				</Card>
+
+				{/* CoinMarketCap Link */}
 
                 {/* Pecunia Link */}
                 <Card className="max-w-[400px] mb-4 font-bold">
