@@ -4,6 +4,7 @@ import { Divider } from "@nextui-org/divider";
 import NextLink from "next/link";
 import { Link } from "@nextui-org/link";
 import { link as linkStyles } from "@nextui-org/theme";
+import {Image} from "@nextui-org/image";
 
 
 export default function AboutPage() {
@@ -28,40 +29,74 @@ export default function AboutPage() {
             <div className="mt-6">
                 {/* CoinCodex Link */}
                 <Card className="max-w-[400px] mb-4 font-bold">
+                    <CardHeader className="flex gap-3">
+                        <Image src="/coincodex.png" alt="CoinCodex Logo" style={{ width: "42px", height: "42px" }} />
+                        <div className="flex flex-col">
+                            <p className="text-xl">CoinCodex</p>
+                        </div>
+                    </CardHeader>
+                    <Divider />
                     <CardBody>
                         <p><Link isExternal href="https://coincodex.com/crypto/bitcoin-adult/" aria-label="coincodex">CoinCodex - Info, charts, and statistics</Link></p>
                     </CardBody>
                 </Card>
-				
-				{/* CoinPaprika Link */}
-				<Card className="max-w-[400px] mb-4 font-bold">
-					<CardBody>
-						<p><Link isExternal href="https://coinpaprika.com/coin/btad-bitcoin-adult/" aria-label="coingecko">CoinPaprika - Info, charts, and statistics</Link></p>
-					</CardBody>
-				</Card>
 
-				{/* CoinMarketCap Link */}
-
-                {/* Pecunia Link */}
+                {/* CoinPaprika Card */}
                 <Card className="max-w-[400px] mb-4 font-bold">
+                    <CardHeader className="flex gap-3">
+                        <Image src="/coinpaprika.png" alt="CoinPaprika Logo" style={{ width: "42px", height: "42px" }} />
+                        <div className="flex flex-col">
+                            <p className="text-xl">CoinPaprika</p>
+                        </div>
+                    </CardHeader>
+                    <Divider />
+                    <CardBody>
+                        <p><Link isExternal href="https://coinpaprika.com/coin/btad-bitcoin-adult/" aria-label="coinpaprika">CoinPaprika - Info, charts, and statistics</Link></p>
+                    </CardBody>
+                </Card>
+
+                {/* Pecunia Card */}
+                <Card className="max-w-[400px] mb-4 font-bold">
+                    <CardHeader className="flex gap-3">
+                        <Image src="/pecunia.png" alt="Pecunia Logo" style={{ width: "42px", height: "42px" }} />
+                        <div className="flex flex-col">
+                            <p className="text-xl">Pecunia</p>
+                        </div>
+                    </CardHeader>
+                    <Divider />
                     <CardBody>
                         <p><Link isExternal href="https://pecuniaplatform.io/" aria-label="pecunia">Pecunia - Masternode hosting</Link></p>
                     </CardBody>
                 </Card>
 
-                {/* IHOSTMN Link */}
+                {/* IHOSTMN Card */}
                 <Card className="max-w-[400px] mb-4 font-bold">
+                    <CardHeader className="flex gap-3">
+                        <Image src="/ihostmn.png" alt="IHOSTMN Logo" style={{ width: "42px", height: "42px" }} />
+                        <div className="flex flex-col">
+                            <p className="text-xl">IHOSTMN</p>
+                        </div>
+                    </CardHeader>
+                    <Divider />
                     <CardBody>
                         <p><Link isExternal href="https://ihostmn.com/" aria-label="ihostmn">IHOSTMN - Masternode hosting</Link></p>
                     </CardBody>
                 </Card>
 
-                {/* Find Your Masternode Link */}
+                {/* Find Your Masternode Card */}
                 <Card className="max-w-[400px] mb-4 font-bold">
+                    <CardHeader className="flex gap-3">
+                        <Image src="/findyourmasternode.png" alt="Find Your Masternode Logo" style={{ width: "42px", height: "42px" }} />
+                        <div className="flex flex-col">
+                            <p className="text-xl">Find Your Masternode</p>
+                        </div>
+                    </CardHeader>
+                    <Divider />
                     <CardBody>
                         <p><Link isExternal href="https://findyourmasternodes.com/" aria-label="findyourmasternode">Find Your Masternode - Masternode hosting</Link></p>
                     </CardBody>
                 </Card>
+				
             </div>
 		</div>
 	);
