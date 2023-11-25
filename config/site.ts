@@ -13,8 +13,8 @@ export const siteConfig = {
       href: "/wallet",
     },
     {
-      label: "Exchanges",
-      href: "/exchanges",
+      label: "Partners",
+      href: "/partners",
     },
 	],
 	navMenuItems: [
@@ -23,8 +23,8 @@ export const siteConfig = {
 			href: "/wallet",
 		  },
 		  {
-			label: "Exchanges",
-			href: "/exchanges",
+			label: "Partners",
+			href: "/partners",
 		  },
 	],
 	links: {

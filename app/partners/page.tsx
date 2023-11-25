@@ -23,6 +23,37 @@ export default function AboutPage() {
 					<p><Link isExternal href="https://xeggex.com/market/BTAD_USDT" aria-label="xeggex">BTAD-USDT</Link></p>
 				</CardBody>
 			</Card>
+			<h1 className={title()}>Partners</h1>
+            {/* Partners Section */}
+            <div className="mt-6">
+                {/* CoinCodex Link */}
+                <Card className="max-w-[400px] mb-4 font-bold">
+                    <CardBody>
+                        <p><Link isExternal href="https://coincodex.com/crypto/bitcoin-adult/" aria-label="coincodex">CoinCodex - Info, charts, and statistics</Link></p>
+                    </CardBody>
+                </Card>
+
+                {/* Pecunia Link */}
+                <Card className="max-w-[400px] mb-4 font-bold">
+                    <CardBody>
+                        <p><Link isExternal href="https://pecuniaplatform.io/" aria-label="pecunia">Pecunia - Masternode hosting</Link></p>
+                    </CardBody>
+                </Card>
+
+                {/* IHOSTMN Link */}
+                <Card className="max-w-[400px] mb-4 font-bold">
+                    <CardBody>
+                        <p><Link isExternal href="https://ihostmn.com/" aria-label="ihostmn">IHOSTMN - Masternode hosting</Link></p>
+                    </CardBody>
+                </Card>
+
+                {/* Find Your Masternode Link */}
+                <Card className="max-w-[400px] mb-4 font-bold">
+                    <CardBody>
+                        <p><Link isExternal href="https://findyourmasternodes.com/" aria-label="findyourmasternode">Find Your Masternode - Masternode hosting</Link></p>
+                    </CardBody>
+                </Card>
+            </div>
 		</div>
 	);
 }
